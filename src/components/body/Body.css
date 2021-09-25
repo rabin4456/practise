@@ -1,0 +1,301 @@
+.body {
+    height: 32vw;
+    position: relative;
+    top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: rgb(48, 48, 87);
+
+}
+
+.body-container {
+    display: flex;
+    position: relative;
+    top: 40px;
+
+}
+
+.body-1 {
+    height: 20vw;
+    width: 30%;
+}
+
+.body-1-image {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    position: relative;
+    left: 55px;
+
+}
+
+.body-2 {
+    height: 20vw;
+    width: 70%;
+
+
+}
+
+.octocat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    width: 88%;
+
+}
+
+.f-size {
+    font-size: 20px;
+}
+
+.f-size-2 {
+    font-size: 12px;
+    color: rgb(59, 59, 221);
+}
+
+.p-size {
+    color: rgb(192, 183, 183);
+}
+
+.f-size-3 {
+    color: rgb(192, 183, 183);
+    position: relative;
+    bottom: -10px;
+}
+
+.octacat-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 88%;
+
+    background-color: rgb(4, 4, 43);
+    border-radius: 8px;
+    position: relative;
+    top: 25px;
+}
+
+.white {
+    color: white;
+    font-size: 22px;
+}
+
+.blur {
+    font-size: 15px;
+
+    color: rgb(192, 183, 183);
+}
+
+.octacat-links {
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+    position: relative;
+    top: 55px;
+}
+
+.white-g {
+    color: white;
+
+}
+
+.blur-g {
+    color: rgb(192, 183, 183);
+
+}
+
+.icon-spacing {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.octacat-table p {
+    position: relative;
+    top: 12px;
+}
+.noData{
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+}
+
+@media (max-width:800px) {
+    .body {
+        height: 65vh;
+        position: relative;
+        top: 15px;
+
+    }
+
+    .body-container {
+        display: inline;
+        position: absolute;
+        top: 30px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 40vh;
+
+
+
+    }
+
+    .body-1 {
+        height: max-content;
+        width: 100px;
+    }
+
+    .body-1-image {
+        border-radius: 50%;
+        height: 90px;
+        width: 90px;
+        position: inline;
+        left: 0px;
+
+    }
+
+    .body-2 {
+        width: 70vw;
+        box-sizing: border-box;
+        margin: 0px;
+
+
+    }
+
+    .octocat {
+        display: inline;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        width: 500px;
+        height: fit-content;
+        position: absolute;
+        padding-left: 120px;
+        top: 10px;
+
+
+    }
+
+
+    .f-size-3 {
+        color: rgb(192, 183, 183);
+        position: relative;
+        bottom: -18px;
+        padding-left: 8px;
+    }
+
+    .octacat-table {
+        position: relative;
+        top: 25px;
+    }
+
+    .octacat-links {
+
+        top: 47px;
+    }
+
+}
+@media (max-width:400px){
+    .body {
+        height: 75vh;
+        position: relative;
+        top: 10px;
+
+    }
+
+    .body-container {
+        display: inline;
+        position: absolute;
+        top: 20px;
+        width: 90%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 40vh;
+
+
+
+    }
+
+    .body-1 {
+        height: max-content;
+        width: 100px;
+    }
+
+    .body-1-image {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        position: inline;
+        left: 0px;
+
+    }
+
+    .body-2 {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+
+
+    }
+
+    .octocat {
+        display: inline;
+        width: 200px;
+        height: fit-content;
+        position: absolute;
+        padding-left: 100px;
+        top: 6px;
+
+
+    }
+    .f-size {
+        font-size: 17px;
+    }
+    .p-size {
+        font-size: 11px;
+    }
+    
+
+    .f-size-3 {
+  
+        bottom: -35px;
+        padding-left: 8px;
+        font-size: 14px;
+    }
+
+    .octacat-table {
+        top: 40px;
+    }
+
+    
+.white {
+    font-size: 15px;
+}
+
+.blur {
+    font-size: 12px;
+
+}
+.octacat-links {
+    display: inline;
+    width: 88%;
+    justify-content:space-evenly;
+}
+.icon-spacing {
+    font-size: 25px;
+    padding-right: 10px;
+}
+.white-g {
+font-size: 13px;
+}
+
+.blur-g {
+font-size: 13px;
+
+
+}
+
+
+}
